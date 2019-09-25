@@ -1,15 +1,9 @@
 import React from "react";
 import { renderToString } from "react-dom/server";
 
-// Globale Registrierung aller genutzten Komponenten. Geht hoffentlich auch dynamischer.
-import Home from './Home';
-import Foo from './Foo';
-import SHome from './SHome';
-const components = {
-    'Home': Home,
-    'Foo': Foo,
-    'SHome': SHome
-};
+// Globale Registrierung aller bekannten Elemente.
+const components = require('./elements/all');
+// console.log(components);
 
 // Seitenstruktur
 const pageStructure = {
