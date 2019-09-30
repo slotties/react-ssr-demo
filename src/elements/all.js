@@ -12,7 +12,5 @@ elementNames.forEach((elementName) => {
     }
 });
 
-console.log(components);
-
 module.exports = components;
 

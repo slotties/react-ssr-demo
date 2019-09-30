@@ -3,9 +3,10 @@ import Bar from './Bar';
 
 class Foo extends React.Component {
     render( ) {
+        const name = this.props.name;
         return (
             <div>
-                Foo
+                Foo: {name}
                 <Bar/>
             </div>
         );
