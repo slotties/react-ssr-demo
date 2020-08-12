@@ -15,7 +15,7 @@
       "react-router-dom": "^4.2.2",
       "redux": "^3.7.2",
       "redux-thunk": "^2.2.0",
-      "serialize-javascript": "^1.8.0"
+      "serialize-javascript": "^4.0.0"
     },
     "devDependencies": {
       "babel-core": "^6.26.0",
